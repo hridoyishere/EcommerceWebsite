@@ -38,15 +38,15 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
 
           <div className="hero-features">
             <div className="feature-item">
-              <span className="feature-icon">🚚</span>
+              <span className="feature-icon"></span>
               <span>Free Shipping</span>
             </div>
             <div className="feature-item">
-              <span className="feature-icon">⚡</span>
+              <span className="feature-icon"></span>
               <span>Fast Delivery</span>
             </div>
             <div className="feature-item">
-              <span className="feature-icon">🛡️</span>
+              <span className="feature-icon"></span>
               <span>2-Year Warranty</span>
             </div>
           </div>

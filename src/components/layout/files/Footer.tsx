@@ -53,15 +53,15 @@ const Footer: React.FC = () => {
         <div className="footer-section">
           <h3>Contact Us</h3>
           <ul className="contact-info">
-            <li>📧 support@storehub.com</li>
+            <li> support@storehub.com</li>
             <li>📞 +1 (800) 123-4567</li>
-            <li>📍 123 Commerce St, Tech City</li>
+            <li>123 Commerce St, Tech City</li>
           </ul>
           <div className="social-links">
-            <a href="https://facebook.com" aria-label="Facebook">🌐</a>
-            <a href="https://twitter.com" aria-label="Twitter">🐦</a>
-            <a href="https://instagram.com" aria-label="Instagram">📸</a>
-            <a href="https://github.com" aria-label="GitHub">💻</a>
+            <a href="https://facebook.com" aria-label="Facebook"></a>
+            <a href="https://twitter.com" aria-label="Twitter"></a>
+            <a href="https://instagram.com" aria-label="Instagram"></a>
+            <a href="https://github.com" aria-label="GitHub"></a>
           </div>
         </div>
       </div>

@@ -160,13 +160,13 @@ const ProductSection: React.FC<ProductSectionProps> = ({
                     className="action-btn add-to-cart-btn"
                     onClick={() => handleAddToCart(product)}
                   >
-                    🛒 Add to Cart
+                    Add to Cart
                   </button>
                   <button 
                     className="action-btn buy-now-btn"
                     onClick={() => handleBuyNow(product)}
                   >
-                    ⚡ Buy Now
+                     Buy Now
                   </button>
                 </div>
               </div>
