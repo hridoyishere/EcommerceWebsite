@@ -1,8 +1,10 @@
+import Home from "./pages/Home"
+
+
 function App() {
   return (
     <main>
-      <h1>Hello Hridoy</h1>
-      <p>I am learning React with TypeScript.</p>
+      <Home/>
     </main>
   )
 }
