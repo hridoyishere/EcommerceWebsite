@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {useNavigate} from 'react-router-dom';
 import '../css/ProductSection.css';
 
 export interface Product {
@@ -68,6 +69,7 @@ const ProductSection: React.FC<ProductSectionProps> = ({
   onAddToCart,
   onBuyNow,
 }) => {
+  const navigate = useNavigate();
   const [activeCategory, setActiveCategory] = useState<string>('All');
 
   const categories = ['All', 'Electronics', 'Accessories'];
@@ -119,7 +121,7 @@ const ProductSection: React.FC<ProductSectionProps> = ({
           {filteredProducts.map((product) => (
             <div key={product.id} className="product-card">
               {/* Image & Badges */}
-              <div className="product-image-container">
+              <div className="product-image-container" onClick={() => navigate(`/product/${product.id}`)}>
                 <img 
                   src={product.imageUrl} 
                   alt={product.name} 
@@ -172,6 +174,10 @@ const ProductSection: React.FC<ProductSectionProps> = ({
               </div>
             </div>
           ))}
+        </div>
+        {/* View see more button */}
+        <div className="see-more">
+          <button className="see-more-btn">See More</button>
         </div>
       </div>
     </section>

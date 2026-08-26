@@ -1,6 +1,6 @@
 .product-section {
   padding: 4rem 1.5rem;
-  background-color: #f8fafc;
+  
 }
 
 .product-container {
@@ -90,6 +90,7 @@
   width: 100%;
   height: 230px;
   background-color: #f1f5f9;
+  cursor: pointer;
   overflow: hidden;
 }
 
@@ -230,6 +231,24 @@
 .buy-now-btn:hover {
   background-color: #1d4ed8;
 }
+
+.see-more{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.see-more-btn{
+  padding: 0.75rem 1.5rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
 
 /* Responsiveness */
 @media (max-width: 640px) {

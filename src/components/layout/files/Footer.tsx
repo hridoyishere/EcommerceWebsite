@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         {/* Brand & Newsletter Section */}
         <div className="footer-section brand-section">
           <h2 className="footer-logo">
-            Store<span className="logo-accent">Hub</span>
+            Shop<span className="logo-accent">Ease</span>
           </h2>
           <p className="footer-description">
             Your one-stop destination for quality products, fast shipping, and exceptional support.
@@ -32,8 +32,8 @@ const Footer: React.FC = () => {
           <h3>Quick Links</h3>
           <ul className="footer-links">
             <li><a href="/shop">Shop All</a></li>
-            <li><a href="/categories">Categories</a></li>
-            <li><a href="/deals">Featured Deals</a></li>
+            <li><a href="/categories">offers</a></li>
+            <li><a href="/deals">Popular</a></li>
             <li><a href="/new-arrivals">New Arrivals</a></li>
           </ul>
         </div>

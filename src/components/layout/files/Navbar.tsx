@@ -20,7 +20,7 @@ function Navbar() {
 
         {/* Brand Logo */}
         <div className="nav-logo">
-          <a href="#">ShopEase<span>.</span></a>
+          <a href="/">ShopEase<span>.</span></a>
         </div>
 
         {/* Search Bar */}
@@ -33,10 +33,10 @@ function Navbar() {
 
         {/* Navigation Links */}
         <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
-          <li><a href="#" className="active">Home</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Categories</a></li>
-          <li><a href="#">Deals</a></li>
+          <li><a href="/" className="active">HOME</a></li>
+          <li><a href="#">OFFER</a></li>
+          <li><a href="#">POPULAR</a></li>
+          <li><a href="#">ABOUT US</a></li>
         </ul>
 
         {/* Action Icons (Wishlist, User, Cart) */}
@@ -45,11 +45,11 @@ function Navbar() {
             <Heart size={22} />
           </a>
           
-          <a href="#" className="icon-btn" aria-label="Account">
+          <a href="/profile" className="icon-btn" aria-label="Account">
             <User size={22} />
           </a>
 
-          <a href="#" className="icon-btn cart-btn" aria-label="Shopping Cart">
+          <a href="/cart" className="icon-btn cart-btn" aria-label="Shopping Cart">
             <ShoppingCart size={22} />
             {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}
           </a>
