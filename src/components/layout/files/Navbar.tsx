@@ -34,9 +34,8 @@ function Navbar() {
         {/* Navigation Links */}
         <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
           <li><a href="/" className="active">HOME</a></li>
-          <li><a href="#">OFFER</a></li>
-          <li><a href="#">POPULAR</a></li>
-          <li><a href="#">ABOUT US</a></li>
+          <li><a href="/popular">POPULAR</a></li>
+          <li><a href="/about">ABOUT US</a></li>
         </ul>
 
         {/* Action Icons (Wishlist, User, Cart) */}
